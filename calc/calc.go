@@ -4,6 +4,6 @@ func calc() int {
 	return 10
 }
 
-func Teste() int {
+func MetodoAcessor() int {
 	return calc()
 }

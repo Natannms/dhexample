@@ -1,9 +1,11 @@
 package main
 
 import (
+	"fmt"
 	"teste/calc"
 )
 
 func main() {
-	calc.MetodoAcessor()
+	result := calc.MetodoAcessor()
+	fmt.Println(result)
 }
